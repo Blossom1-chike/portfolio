@@ -2,13 +2,12 @@ import React from "react";
 
 const About = () => {
   const skills = [
-    ,
     { lang1: "Html", lang2: "CSS", lang3: "JavaScript" },
     { lang1: "ReactJS", lang2: "Material UI", lang3: "TailwindCSS" },
     { lang1: "NodeJS", lang2: "MongoDB", lang3: "ExpressJS" },
   ];
   return (
-    <div className="px-28 py-20 text-white mt-20 bg-[#1A1A29] text-[14px]">
+    <div className="px-32 py-20 text-white mt-20 bg-[#1A1A29] text-[14px]">
       <p className="text-[24px] font-semibold underline underline-offset-8 decoration-4 decoration-[#7562E0] tracking-wider">About Me:</p>
       <p className="mt-10 w-1/2 leading-loose">
         Dedicated and performance-driven developer with a pro-active approach

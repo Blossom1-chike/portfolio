@@ -1,14 +1,16 @@
 import React from "react";
-import { PageLayout } from "../component";
-import Introduction from "../component/introduction";
-import About from "../component/about";
+import { Introduction, PageLayout, About, Projects, Footer } from "../component";
+import Contact from "../component/contact";
+
 
 const Home = () => {
   return (
     <PageLayout>
-      <div className="bg-[#181824]">
+      <div>
         <Introduction />
         <About />
+        <Projects />
+        <Contact/>
       </div>
     </PageLayout>
   );

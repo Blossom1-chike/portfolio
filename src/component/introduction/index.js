@@ -4,7 +4,7 @@ import { EyeIcon, Profile } from "../../images";
 const Introduction = () => {
   return (
     <div className="flex flex-row bg-[#1A1A29]">
-      <div className="flex flex-col text-white px-28 pt-36 pb-10 ">
+      <div className="flex flex-col text-white px-32 pt-36 pb-10 ">
         <p className="text-[32px] font-semibold">Hello, i’m</p>
         <p className="text-[48px] font-semibold w-fit h-fit">Blossom C. Chikezie</p>
         <p className="w-1/2">
