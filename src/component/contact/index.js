@@ -15,9 +15,9 @@ const Contact = () => {
       <div className="mr-20">
         <p className="text-[20px] font-medium">Contact me, let's make magic together</p>
         <form className="flex flex-col gap-4 mt-5">
-            <input type="text" className="p-5 bg-[#F5F5F5] rounded" id="name" name="name" placeholder="Name:" />
-            <input type="email" id="email" className="p-5 bg-[#F5F5F5] rounded" name="email" placeholder="Email:" />
-            <textarea placeholder="Message:" className="p-5 rounded" rows='5'></textarea>
+            <input type="text" className="p-5 bg-[#F5F5F5] text-white rounded bg-opacity-[0.11]" id="name" name="name" placeholder="Name:" />
+            <input type="email" id="email" className="p-5 bg-[#F5F5F5] rounded bg-opacity-[0.11]" name="email" placeholder="Email:" />
+            <textarea placeholder="Message:" className="p-5 bg-[#F5F5F5] text-white rounded bg-opacity-[0.11]" rows='5'></textarea>
             <button className="py-3 bg-[#7562E0] rounded w-[124px]">Send</button>
         </form>
       </div>
