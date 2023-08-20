@@ -4,7 +4,7 @@ import { projects } from "../../data/project";
 
 const Projects = () => {
   return (
-    <div className="px-32 text-white mt-20 text-[14px]">
+    <div className="lg:px-32 px-10 text-white mt-20 text-[14px]">
       <p className="text-[24px] font-semibold underline underline-offset-8 decoration-4 text-[#7562E0] decoration-white tracking-wider">
         Projects
       </p>
@@ -15,9 +15,9 @@ const Projects = () => {
           proficiency in creating dynamic and user-centric web solutions. Here
           are a few of my live, real world projects.
         </p>
-        <div className="flex gap-5 backdrop-blur-sm">
+        <div className="flex lg:flex-row flex-col gap-5">
           {projects.map((project, index) => (
-            <div className="mt-10 w-1/2 flex flex-col gap-4">
+            <div className="mt-10 lg:w-1/2 md:w-1/2 flex flex-col gap-4">
               {/* <img src={ESNS} className="w-[200px]" alt="Emergency Situation Notification System" /> */}
               <p className="text-[24px] text-[#7562E0]">{project.title}</p>
               <p>

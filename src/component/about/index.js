@@ -7,9 +7,9 @@ const About = () => {
     { lang1: "NodeJS", lang2: "MongoDB", lang3: "ExpressJS" },
   ];
   return (
-    <div className="px-32 py-20 text-white mt-20 bg-[#1A1A29] text-[14px]">
+    <div className="lg:px-32 px-10 lg:py-20 py-10 text-white mt-20 bg-[#1A1A29] text-[14px]">
       <p className="text-[24px] font-semibold underline underline-offset-8 decoration-4 decoration-[#7562E0] tracking-wider">About Me:</p>
-      <p className="mt-10 w-1/2 leading-loose">
+      <p className="mt-10 lg:w-1/2 w-full leading-loose">
         Dedicated and performance-driven developer with a pro-active approach
         and determination to successfully finish all assigned projects within
         budget and schedule. Effective team player offering extraordinary
