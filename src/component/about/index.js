@@ -15,11 +15,11 @@ const About = () => {
         budget and schedule. Effective team player offering extraordinary
         analytical skills and most importantly, the ability to think critically.
       </p>
-      <div className="mt-4">
+      <div className="mt-4 w-full">
         <p className="font-semibold tracking-wider">Technologies I've Worked With:</p>
         <div className="flex flex-row">
           {skills.map((skill, index) => (
-            <div key={index} className="flex flex-col gap-1 mr-8 py-2">
+            <div key={index} className="flex flex-col gap-1 lg:mr-8 mr-4  py-2">
                  <p>{skill.lang1}</p>
                  <p>{skill.lang2}</p>
                  <p>{skill.lang3}</p>
